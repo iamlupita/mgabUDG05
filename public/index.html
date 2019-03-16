@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chat Luay</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <div id="chat-luay">
+        <h2>Chat Luay</h2>
+        <input id="handle" type="text" placeholder="Handle" />
+        <input id="message" type="text" placeholder="Message" />
+        <button id="send">Send</button>
+        <div id="chat-window">
+          <div id="feedback">
+          </div>
+          <div id="output">
+          </div>
+        </div>
+      </div>
+  </body>
+
+  <script src="/chat.js"></script>
+</html>
